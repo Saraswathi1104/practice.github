@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CRUD.css">
+    <title>New Employee Form</title>
+</head>
+<body>
+    <div class="form-container">
+        <h2>EMPLOYEE NEXUS</h2>
+        <form>
+            <div class="form-group">
+                <input type="text" placeholder="Name *" required>
+
+                <select>
+                    <option>Company</option>
+                </select>
+            </div>
+            <div class="form-group">
+                
+                <input type="text" placeholder="Designation">
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="Personal Number">
+                <input type="email" placeholder="Email *" required>
+            </div>
+            <div class="form-group">
+                <textarea class="textarea" placeholder="Address" rows="10" cols="165"></textarea>
+            </div>
+            
+            
+            <div class="form-group">
+                <select>
+                    <option>Country</option>
+                </select>
+                <select>
+                    <option>State</option>
+                </select>
+                <!-- <input type="text" placeholder="State"> -->
+                <input type="text" placeholder="Pincode">
+            </div>
+            <h3>Social Media</h3>
+            <div class="form-group">
+                <input type="url" placeholder="LinkedIn URL">
+                <input type="url" placeholder="Facebook URL">
+            </div>
+            <div class="form-group">
+                <input type="url" placeholder="Twitter URL">
+                <input type="url" placeholder="Instagram URL">
+            </div>
+            <div class="form-actions">
+                <button type="button" class="submit-btn">Register</button>
+                <button type="button" class="submit-btn">Update</button>
+
+                <button type="button" class="cancel-btn">Reset</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
